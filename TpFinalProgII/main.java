@@ -4,11 +4,13 @@ public class main {
     public static void main(String[] args) {
         Editorial e = new Editorial();
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 2; i++) {
             Libro l = null;
             l = leerLibro();
             e.cargarVector(l);
+            System.out.println(l.toString());
         }
+        System.out.println(e.toString());
     }
 
     public static Libro leerLibro() {

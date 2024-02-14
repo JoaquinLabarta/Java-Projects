@@ -28,4 +28,9 @@ public class Divulgativo extends Libro {
     public void settipoDiv(String tipoLib) {
         this.tipoDiv = tipoLib;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+ ", tipo de divulagacion=" + this.tipoDiv;
+    }
 }

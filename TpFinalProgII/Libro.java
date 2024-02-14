@@ -76,4 +76,10 @@ public abstract class Libro {
     }
 
     abstract float calcularMonto();
+
+    @Override
+    public String toString() {
+        return "Libro [isbn=" + isbn + ", nomLib=" + nomLib + ", fecha=" + fecha + ", cantPaginas=" + cantPaginas
+                + ", precio inicial=" + precio + ", precio con descuento=" + calcularMonto() + ", autor=" + autor.getNombreCompleto() + ", tipoLib=" + tipoLib + "]";
+    }
 }

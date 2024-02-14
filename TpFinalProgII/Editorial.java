@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Editorial {
     private String nomEdi;
     private int cantPremios;
@@ -37,4 +39,9 @@ public class Editorial {
     public void setCantPremios(int cantPremios) {
         this.cantPremios = cantPremios;
     }
+
+    @Override
+    public String toString() {
+        return "Editorial [nomEdi=" + nomEdi + ", cantPremios=" + cantPremios + ", libros=" + Arrays.toString(libros);
+    }   
 }

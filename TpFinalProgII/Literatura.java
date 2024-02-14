@@ -38,4 +38,9 @@ public class Literatura extends Libro{
     public void setBolsillo(boolean bolsillo) {
         this.bolsillo = bolsillo;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", genero=" + this.genero + ", bolsillo=" + this.bolsillo;
+    }
 }
