@@ -1,0 +1,13 @@
+Suponer un sistema de reservas de asientos para un anfiteatro. El teatro cuenta con 10 filas de 10 asientos cada una. 
+Se necesita desarrollar un sistema que permita llevar a cabo lo siguiente:
+a)  Cargar el "mapa" de filas y asientos. Indicando con una X los asientos ocupados y con una L los asientos libres. 
+    Al iniciar el programa, todos los asientos deben estar libres.
+b)  Manejar la reserva de asientos contemplando que un asiento solo puede ser reservado si se encuentra en estado L. 
+    En caso de que este en X, se debera permitir al comprador elegir otro asiento. Si se encuentra en estado L, 
+    debera pasar automaticamente al estado X.
+c)  Para finalizar el programa se debera ingresar un valor en particular. Contemplar que no existe una cantidad exacta de 
+    veces que el programa se pueda ejecutar. 
+d)  Contemplar que SOLO EXISTEN 10 FILAS Y 10 ASIENTOS. No se pueden vender asientos fuera de esas numeraciones. 
+    No se permite "sobreventa".
+e)  En caso de que el cliente solicite visualizar cuales son los asientos libres, el sistema debe permitir mostrar de 
+    forma grafica el mapa de asientos.
